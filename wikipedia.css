@@ -1,0 +1,22 @@
+/*container*/
+.container {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/*header*/
+.container h4 {
+  text-align: center;
+}
+
+/*individual image styles*/
+img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.author {
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
