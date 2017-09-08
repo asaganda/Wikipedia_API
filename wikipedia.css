@@ -10,13 +10,19 @@
   text-align: center;
 }
 
+/*each individual image and author text*/
+.img_container {
+  border: 3px solid navy;
+  margin-bottom: 40px;
+}
+
 /*individual image styles*/
 img {
+  padding: 5px;
   width: 100%;
-  margin-bottom: 5px;
 }
 
 .author {
-  margin-bottom: 40px;
-  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }

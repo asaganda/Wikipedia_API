@@ -45,7 +45,7 @@ $(document).ready(function() {
           var imgAuthor = response.query.pages[-1].imageinfo[0].user;
 
           // jquery image/author DOM HTML append
-          $(".images").append('<img src="' + imgUrl + '">').append('<h4 class="author">Above authored on Wikipedia by: ' + imgAuthor + '</h4>');
+          $(".images").append('<div class="img_container"><img src="' + imgUrl + '"><h4 class="author">Above authored on Wikipedia by: ' + imgAuthor + '</h4></div>'); //.append('<h4 class="author">Above authored on Wikipedia by: ' + imgAuthor + '</h4>');
 
         },
         
